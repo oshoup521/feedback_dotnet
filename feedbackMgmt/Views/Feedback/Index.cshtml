@@ -1,0 +1,79 @@
+﻿@model IEnumerable<feedbackMgmt.Models.Feedback>
+
+@{
+    ViewData["Title"] = "Index";
+    List<Feedback> feedbacks = new List<Feedback>();
+    feedbacks = (List<Feedback>)ViewData["feedbacks"];
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Sid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Module)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Faculty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pskill)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fcomment)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Module)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Faculty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pskill)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fcomment)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Sid }) |
+                    @Html.ActionLink("Details", "Details", new {  id=item.Sid }) |
+                    @Html.ActionLink("Delete", "Delete", new {  id=item.Sid })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

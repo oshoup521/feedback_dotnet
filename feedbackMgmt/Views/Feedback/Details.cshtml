@@ -1,0 +1,69 @@
+﻿@model feedbackMgmt.Models.Feedback
+@using feedbackMgmt;
+
+@{
+    ViewData["Title"] = "Details";
+    int id = (int)ViewBag.Id;
+    Feedback detail = DBManager.GetFeedback(id);
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Feedback</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sid)
+        </dt>
+        <dd class = "col-sm-10">
+            @detail.Sid
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sname)
+        </dt>
+        <dd class = "col-sm-10">
+            @detail.Sname
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Fdate)
+        </dt>
+        <dd class = "col-sm-10">
+            @detail.Fdate
+        </dd>
+         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Module)
+        </dt>
+        <dd class = "col-sm-10">
+            @detail.Module
+        </dd>
+         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Faculty)
+        </dt>
+        <dd class = "col-sm-10">
+            @detail.Faculty
+        </dd>
+         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+        <dd class = "col-sm-10">
+            @detail.Rating
+        </dd>
+         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pskill)
+        </dt>
+        <dd class = "col-sm-10">
+            @detail.Pskill
+        </dd>
+         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Fcomment)
+        </dt>
+        <dd class = "col-sm-10">
+            @detail.Fcomment
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { id = detail.Sid }) |
+    <a asp-action="Index">Back to List</a>
+</div>
