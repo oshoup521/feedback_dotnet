@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DAL",
     "\\Views",
     "\\Views\\Home"
   ],
-  "SelectedNode": "\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\DAL\\DBManager.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -235,6 +235,11 @@ namespace feedbackMgmt
             return BCrypt.Net.BCrypt.HashPassword(password);
         }
 
+        public bool ValidatePassword(string hashedPassword, string password)
+        {
+            return BCrypt.Net.BCrypt.Verify(password, hashedPassword);
+        }
+
 
 
     }

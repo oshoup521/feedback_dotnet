@@ -9435,11 +9435,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\visualStudioProjects\\feedbackMgmt\\feedbackMgmt.csproj",
+      "projectUniqueName": "D:\\local repository\\feedback_dotnet\\feedbackMgmt\\feedbackMgmt.csproj",
       "projectName": "feedbackMgmt",
-      "projectPath": "D:\\visualStudioProjects\\feedbackMgmt\\feedbackMgmt.csproj",
+      "projectPath": "D:\\local repository\\feedback_dotnet\\feedbackMgmt\\feedbackMgmt.csproj",
       "packagesPath": "C:\\Users\\oshou\\.nuget\\packages\\",
-      "outputPath": "D:\\visualStudioProjects\\feedbackMgmt\\obj\\",
+      "outputPath": "D:\\local repository\\feedback_dotnet\\feedbackMgmt\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oshou\\AppData\\Roaming\\NuGet\\NuGet.Config",

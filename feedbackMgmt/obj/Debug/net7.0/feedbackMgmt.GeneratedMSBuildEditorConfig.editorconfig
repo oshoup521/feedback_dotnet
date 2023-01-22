@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = feedbackMgmt
 build_property.RootNamespace = feedbackMgmt
-build_property.ProjectDir = D:\visualStudioProjects\feedbackMgmt\
+build_property.ProjectDir = D:\local repository\feedback_dotnet\feedbackMgmt\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\visualStudioProjects\feedbackMgmt
+build_property.MSBuildProjectDirectory = D:\local repository\feedback_dotnet\feedbackMgmt
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Auth/Login.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Auth/Register.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Auth/Welcome.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Auth/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxXZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Feedback/Create.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Feedback/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Feedback/Delete.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Feedback/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Feedback/Details.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Feedback/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Feedback/Edit.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Feedback/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Feedback/Index.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Feedback/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Home/Index.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Home/Privacy.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Shared/Error.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/_ViewImports.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/_ViewStart.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/visualStudioProjects/feedbackMgmt/Views/Shared/_Layout.cshtml]
+[D:/local repository/feedback_dotnet/feedbackMgmt/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0xq8frhj75
